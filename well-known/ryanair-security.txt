@@ -1,0 +1,3 @@
+# Hi there, thanks for taking an interest in Ryanair security! If you think you found an issue, please let us know.
+Contact: wh_is_disclosure@ryanair.com
+Encryption: https://www.ryanair.com/.well-known/public_key.asc

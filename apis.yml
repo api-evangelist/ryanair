@@ -1,23 +1,63 @@
 aid: ryanair
+
 name: Ryanair
-description: 'Ryanair is a company surfaced via the API Evangelist harvest backlog (source: travel) and
-  added to the network as a stub for full-pipeline profiling.'
+
+description: 'Ryanair is a low‑cost European airline headquartered in Dublin, Ireland, operating a large network of scheduled flights across Europe and beyond. It offers a self‑service booking platform, ancillary services such as car hire, hotels, and travel insurance, and provides a mobile app for flight management. The company emphasizes affordable fares, a la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la‑la '
+
 url: https://raw.githubusercontent.com/api-evangelist/ryanair/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:travel
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-23'
+
 modified: '2026-09-23'
+
 tags:
 - Company
-apis: []
+- Airline
+- Travel
+- Europe
+- LowCost
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: SecurityTxt
+  url: well-known/ryanair-security.txt
+- type: WellKnown
+  url: well-known/ryanair-well-known.yml
+- type: Hosts
+  url: hosts/ryanair-hosts.yml
+- type: Vendors
+  url: vendors/ryanair-vendors.yml
+- type: TermsOfService
+  url: https://www.ryanair.com/gb/en/corporate/terms-of-use
+- type: Support
+  url: https://help.ryanair.com/hc/en-gb
+- type: PrivacyPolicy
+  url: https://www.ryanair.com/gb/en/corporate/privacy-policy
+- type: Documentation
+  url: https://help.ryanair.com/
+- type: DomainSecurity
+  url: security/ryanair-domain-security.yml
 - type: Website
   url: https://ryanair.com/
+
+apis: []
+x-enrichment:
+  date: '2026-09-23'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
